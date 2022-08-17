@@ -15,7 +15,7 @@ function App() {
       <Landing />
       <Banner />
 
-      <div>
+      <div className="app-map-aboutus">
         <Map />
         <AboutUs />
       </div>

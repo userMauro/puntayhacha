@@ -1,0 +1,24 @@
+.Banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 100%; */
+    width: 80%;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner-imgs {
+    cursor: pointer;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.banner-imgs:hover {
+    scale: 1.1;
+    
+}

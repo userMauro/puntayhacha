@@ -1,5 +1,9 @@
+import "./Styles/Certificates.css"
+
 export default function Certificates () {
     return (
-        <div>Certificates</div>
+        <div className="Certificates">
+            Certificates
+        </div>
     )
 };
