@@ -1,0 +1,133 @@
+
+/* Slideshow container */
+.slideshow-container {
+    display: flex;
+    width: 100%;
+    background-color: #FBB02D;
+
+}
+.fade {
+    justify-content: space-around;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.img {
+    padding-top: 12px;
+    padding-bottom: 33px;
+    width: 100%;
+    background-color: #FBB02D;
+    text-shadow: 1px 1px 0 #fff;
+    border-radius: 8px;
+    margin: 10px 10px;
+    box-shadow: -5px -5px 20px #FBB02D, 5px 5px 20px #FBB02D;
+}
+.text {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 13%;
+}
+/* Next & previous buttons */
+.plusSlides {
+    border-width: 0px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ef8354;
+    width: 9%;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.23);
+}
+.plusSlides:hover {
+    box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.23);
+}
+
+.dots{
+    margin-top: 20%;
+}
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dotActive {
+    margin-top: 20px;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    margin: 0 9px;
+    background-color: #FB6107;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot:hover {
+    background-color: #FB6107;
+}
+.signal{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 600px;
+}
+/* Fading animation */
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+.picProfile {
+    width: 100%;
+}
+.avatar {
+    width: 30%;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 3px rgb(0, 0, 0) solid;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-20px);
+    }
+
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+}
