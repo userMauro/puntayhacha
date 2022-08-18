@@ -1,9 +1,0 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
-  RewriteRule ^index\.html$ - [L]
-  RewriteCond %{index.js} !-f
-  RewriteCond %{index.js} !-d
-  RewriteCond %{index.js} !-l
-  RewriteRule . /index.html [L]
-</IfModule>
