@@ -1,5 +1,6 @@
 {
   "name": "puntayhacha",
+  "homepage": "https://puntayhacha.com.ar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

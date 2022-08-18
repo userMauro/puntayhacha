@@ -1,0 +1,42 @@
+.ContactUs {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.2);
+    padding-bottom: 15px;
+}
+
+.contactus-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 10px 15px;
+    gap: 10px;
+}
+
+.contactus-inputs {
+    height: 20px;
+    /* width: 100%; */
+}
+
+.contactus-inputs-message {
+    height: 50px;
+    resize: none;
+}
+
+.contactus-endform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactus-btn {
+    /* background-color: black; */
+    height: 30px;
+    width: 25%;
+}
+
+.contactus-chars {
+    font-size: small;
+}

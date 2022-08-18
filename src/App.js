@@ -7,6 +7,7 @@ import Map from "./Components/Map";
 import AboutUs from "./Components/AboutUs";
 import Certificates from "./Components/Certificates";
 import Footer from "./Components/Footer";
+import ContactUs from './Components/ContactUs';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </div>
 
       <Certificates />
+      <ContactUs />
 
       <footer>
         <Footer />
