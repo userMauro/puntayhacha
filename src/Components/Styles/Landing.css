@@ -82,7 +82,7 @@
     flex-direction: column;
     align-items: center;
     width: 60%;
-    height: 600px;
+    height: 400px;
 }
 /* Fading animation */
 @-webkit-keyframes fade {
