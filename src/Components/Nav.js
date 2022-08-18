@@ -1,9 +1,7 @@
-import { useState } from "react";
 import "./Styles/Nav.css"
 import profile from "../assets/logo-puntayhacha-blanco.jpg"
 
 export default function Nav () {
-        const [isNavExpanded, setIsNavExpanded] = useState(false);
 
     return (
         <div className="navigation">

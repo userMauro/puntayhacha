@@ -2,19 +2,23 @@ import { useState } from "react";
 import "./Styles/Landing.css";
 import profile from "../assets/logo-puntayhacha-blanco.jpg"
 
+import img_one from "../assets/imgs/IMG_3752.png";
+import img_two from "../assets/imgs/IMG_6862.png";
+import img_three from "../assets/imgs/IMG_9251.png";
+
 export default function Landing () {
     const [state, setState] = useState({
         slideIndex:0,
 });
 
     let a={
-        img:"https://somoskudasai.com/wp-content/uploads/2022/04/portada_spy-x-family-33.jpg"
+        img: img_one
     };
     let b={
-        img: "https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2022/05/01/C8E3DCB0-3FE6-4B0D-8302-2B9845EFEC8B/spy-family_98.jpg?crop=1280,720,x0,y0&width=1900&height=1069&optimize=high&format=webply"
+        img: img_two
     };
     let c={
-        img:"https://as01.epimg.net/meristation/imagenes/2022/06/13/noticias/1655110766_378946_1655111034_noticia_normal.jpg"
+        img: img_three
     };
 
     let currentImage =[a,b,c]
