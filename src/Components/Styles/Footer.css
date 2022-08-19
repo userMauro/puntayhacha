@@ -1,0 +1,23 @@
+.box{
+    width: 100%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.419);
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+}
+.desing{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.0rem;
+    font-weight: 300;
+    padding: 30px;
+}

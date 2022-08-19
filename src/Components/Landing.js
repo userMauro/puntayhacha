@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Styles/Landing.css";
-import profile from "../assets/logo-puntayhacha-blanco.jpg"
-
+// import profile from "../assets/logo-puntayhacha-blanco.jpg"
+import profile from "../assets/logos/negro-sinfondo.png";
 import img_one from "../assets/imgs/IMG_3752.png";
 import img_two from "../assets/imgs/IMG_6862.png";
 import img_three from "../assets/imgs/IMG_9251.png";
@@ -59,9 +59,9 @@ export default function Landing () {
                     <button className="plusSlides" onClick={(e)=>plusSlides(-1)}> B </button>
                         <div  className="signal">
                             <div className="avatar">
-                                <a>
+                                
                                     <img className="picProfile" src={profile} alt="profile" />
-                                </a>
+                                
                             </div>
                             <div className="dots" >
                                     <span className={state.slideIndex !==0? "dot": "dotActive"} onClick={(e)=>currentSlide(0)}></span>
