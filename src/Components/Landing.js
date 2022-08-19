@@ -57,21 +57,26 @@ export default function Landing () {
                 <div className="img-container">
                     <img className="img" src={currentImage[state.slideIndex].img}  alt =""/>
                 </div>
+                
                 <div className="text">
+
                     <button className="plusSlides" onClick={(e)=>plusSlides(-1)}> ◄ </button>
+
                         <div  className="signal">
+
                             <div className="avatar">
-                                
-                                    <img className="picProfile" src={profile} alt="profile" />
-                                
+                                <img className="picProfile" src={profile} alt="profile" />
                             </div>
+
                             <div className="dots" >
-                                    <span className={state.slideIndex !==0? "dot": "dotActive"} onClick={(e)=>currentSlide(0)}></span>
-                                    <span className={state.slideIndex !==1? "dot": "dotActive"} onClick={(e)=>currentSlide(1)}></span>
-                                    <span className={state.slideIndex !==2?"dot": "dotActive"} onClick={(e)=>currentSlide(2)}></span>
+                                <span className={state.slideIndex !==0? "dot": "dotActive"} onClick={(e)=>currentSlide(0)}></span>
+                                <span className={state.slideIndex !==1? "dot": "dotActive"} onClick={(e)=>currentSlide(1)}></span>
+                                <span className={state.slideIndex !==2?"dot": "dotActive"} onClick={(e)=>currentSlide(2)}></span>
                             </div>
+
                         </div>
                     <button className="plusSlides" onClick={(e)=>plusSlides(1)}> ► </button>
+
                 </div>
             </div>
         </div>
