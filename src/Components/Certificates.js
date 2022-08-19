@@ -7,6 +7,7 @@ import icon_ue from "../assets/certificates/uecert.png";
 import icon_oia from "../assets/certificates/oia.png";
 import icon_usda from "../assets/certificates/usda.png";
 import icon_orgarg from "../assets/certificates/orgarg.png";
+import icon_canada from "../assets/certificates/canadaorganic.png";
 
 export default function Certificates () {
     return (
@@ -19,6 +20,7 @@ export default function Certificates () {
                 <img title="OIA" className="certificates-imgs" src={icon_oia} alt='icon_oia' />
                 <img title="USDA Organic" className="certificates-imgs" src={icon_usda} alt='icon_usda' />
                 <img title="Organico Argentina" className="certificates-imgs-orgarg" src={icon_orgarg} alt='icon_orgarg' />
+                <img title="Canada Organic" className="certificates-imgs" src={icon_canada} alt='icon_canada' />
             </div>
         </div>
     )
