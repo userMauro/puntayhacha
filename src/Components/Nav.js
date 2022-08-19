@@ -14,9 +14,9 @@ export default function Nav () {
                     <div className="navbutton">
                         <a className="link" href="#contactus">Contáctanos</a>
                     </div>
-                    {/* <div className="navbutton">
+                    <div className="navbutton">
                         <a className="link" href="#certificates">Certificados</a>
-                    </div> */}
+                    </div>
             </div>
         </div>
     );

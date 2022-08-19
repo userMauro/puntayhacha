@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Styles/Landing.css";
 // import profile from "../assets/logo-puntayhacha-blanco.jpg"
 import profile from "../assets/logos/negro-sinfondo.png";
-import img_one from "../assets/imgs/IMG_3752.png";
+import img_one from "../assets/imgs/IMG_3752.jpg";
 import img_two from "../assets/imgs/IMG_6862.png";
 import img_three from "../assets/imgs/IMG_9251.png";
 
@@ -54,9 +54,11 @@ export default function Landing () {
     return (
         <div className="slideshow-container">
             <div className="fade">
-                <img className="img" src={currentImage[state.slideIndex].img}  alt =""/>
+                <div className="img-container">
+                    <img className="img" src={currentImage[state.slideIndex].img}  alt =""/>
+                </div>
                 <div className="text">
-                    <button className="plusSlides" onClick={(e)=>plusSlides(-1)}> B </button>
+                    <button className="plusSlides" onClick={(e)=>plusSlides(-1)}> ◄ </button>
                         <div  className="signal">
                             <div className="avatar">
                                 
@@ -69,7 +71,7 @@ export default function Landing () {
                                     <span className={state.slideIndex !==2?"dot": "dotActive"} onClick={(e)=>currentSlide(2)}></span>
                             </div>
                         </div>
-                    <button className="plusSlides" onClick={(e)=>plusSlides(1)}> N </button>
+                    <button className="plusSlides" onClick={(e)=>plusSlides(1)}> ► </button>
                 </div>
             </div>
         </div>

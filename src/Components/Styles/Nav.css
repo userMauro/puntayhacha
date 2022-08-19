@@ -62,5 +62,14 @@
     .brand-name{
         visibility: hidden;
         width: 1px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:500px) {
+    .navigation-menu {
+        justify-content: center;
+        width: 100%;
+        margin-left: 0px;
     }
   }
