@@ -1,4 +1,5 @@
 .Banner {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,26 +7,28 @@
     border-radius: 5px;
     padding: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .banner-title {
-    color: #80b918;
+    color: #000000;
     font-size: xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Montserrat", sans-serif;
     cursor: default;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 .banner-container {
+
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(9, 1fr);
     justify-items: center;
     width: 100%;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    gap: 15px;
+    margin-top: 20px;
 }
 
 .banner-imgs {
@@ -33,10 +36,27 @@
     border-radius: 50%;
     height: 70px;
     width: 70px;
+    margin-bottom: -15px;
 }
 
-.banner-imgs:hover {
+.line {
+    width: 100%;
+    border: 1px solid darkgray;
+    margin-top: 10px;
+
+}
+
+.Fhover {
+    color: rgb(91, 91, 91);
+    cursor: default;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Fhover:hover {
     scale: 1.2;
+    color: #80b918;
+    transition: all 0.6s;
+
 }
 
 @media (max-width:800px) {

@@ -11,16 +11,11 @@
 }
 
 .certificates-labels {
+    cursor:default;
     color: white;
     font-size: xx-large;
     font-weight:600;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.certificates-labels:hover {
-    color: gold;
-    cursor: default;
-    transition: all 0.9s;
+    font-family: "Montserrat", sans-serif;
 }
 
 .certificates-container {
@@ -29,8 +24,8 @@
     justify-items: center;
     align-items: center;
     width: 60%;
-    border-radius: 2px;
-    background-color: rgba(0,0,0,0.2);
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 15px;
 }
 

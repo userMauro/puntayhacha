@@ -1,16 +1,21 @@
 .ContactUs {
+    justify-items: end;
+    color:darkgray;
+    margin-bottom: 35px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    height: 350px;
-    width: 48%;
-    margin-bottom: 10px;
-    background-color: #80b918;
+    width: 36%;
+    padding-bottom: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .contactus-title {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Montserrat", sans-serif;
     cursor: default;
 }
 
@@ -22,13 +27,22 @@
 }
 
 .contactus-inputs {
-    height: 20px;
-    /* width: 100%; */
+    outline: none ;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    height: 30px;
 }
 
 .contactus-inputs-message {
-    height: 100px;
+    height: 70px;
     resize: none;
+    outline: none ;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: "Montserrat", sans-serif;
+    border: none;
 }
 
 .contactus-endform {
@@ -49,6 +63,6 @@
 
 @media (max-width:550px) {
     .ContactUs {
-      width: 100%;
+      width: 80%;
     }
   }
