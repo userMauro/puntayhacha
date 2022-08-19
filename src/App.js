@@ -17,16 +17,16 @@ function App() {
       <Banner />
 
       <div className="app-map-aboutus">
+        <a name="maps"></a>
         <Map />
-        <AboutUs />
+        <a name="aboutus"></a>
+        <AboutUs/>
       </div>
 
       <Certificates />
       {/* <ContactUs /> */}
 
-      <footer>
         <Footer />
-      </footer>
     </div>
   );
 }

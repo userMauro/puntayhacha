@@ -9,10 +9,10 @@ export default function Nav () {
             </a>
             <div className="navigation-menu">
                     <div className="navbutton">
-                        <a href="#aboutus">About us</a>
+                        <a className="link" href="#aboutus">About us</a>
                     </div>
                     <div className="navbutton">
-                        <a href="maps">Maps</a>
+                        <a className="link" href="#maps">Maps</a>
                     </div>
             </div>
         </div>
