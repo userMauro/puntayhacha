@@ -1,11 +1,35 @@
 .Certificates {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url('../../assets/imgs/IMG_3752.png');
+    background-size: cover;
+    align-items: center;
+    padding-bottom: 30px;
+    border-top: 1px solid darkgray;
+}
+
+.certificates-labels {
+    color: white;
+    font-size: xx-large;
+    font-weight:600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.certificates-labels:hover {
+    color: gold;
+    cursor: default;
+    transition: all 0.9s;
+}
+
+.certificates-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     justify-items: center;
     align-items: center;
     width: 60%;
     border-radius: 2px;
-    margin-bottom: 10px;
     background-color: rgba(0,0,0,0.2);
     padding: 15px;
 }
@@ -29,20 +53,20 @@
 }
 
 @media (max-width:1150px) {
-    .Certificates {
+    .certificates-container {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
 }
 
 @media (max-width:550px) {
-    .Certificates {
+    .certificates-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width:350px) {
-    .Certificates {
+    .certificates-container {
         grid-template-columns: repeat(1, 1fr);
     }
 }

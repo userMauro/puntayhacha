@@ -17,12 +17,11 @@ function App() {
       <Banner />
 
       <div className="app-map-aboutus">
-        <Map />
         <AboutUs />
+        <ContactUs />
       </div>
 
       <Certificates />
-      <ContactUs />
 
       <footer>
         <Footer />

@@ -1,6 +1,40 @@
 .AboutUs {
-    height: 200px;
-    width: 48%;
-    border: 1px solid darkgray;
-    border-radius: 5px;
+    height: 350px;
+    width: 50%;
+    padding: 0px 100px 0px 100px;
 }
+
+.aboutus-title {
+    color: #80b918;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: default;
+}
+
+.aboutus-description {
+    color: darkgray;
+}
+
+.aboutus-clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutus-clients-logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    justify-items: center;
+}
+
+.aboutus-imgs-clients {
+    height: 100%;
+    width: 50%;
+}
+
+@media (max-width:550px) {
+    .AboutUs {
+      width: 80%;
+    }
+  }

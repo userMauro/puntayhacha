@@ -16,7 +16,7 @@ export default function ContactUs () {
             ...state,
             char: state.message.length
         })
-    }, [state])
+    }, [state.message])
 
     const handleChange = e => {
         setState({
@@ -43,7 +43,7 @@ export default function ContactUs () {
 
     return (
         <div className="ContactUs">
-            <p>Contáctanos</p>
+            <p className="contactus-title">Contáctanos</p>
             <form className="contactus-form" onSubmit={handleOnSubmit}>
                 <input required className='contactus-inputs' type="text" name="name" value={state.name} placeholder="Nombre" onChange={handleChange} />
                 <input required className='contactus-inputs' type="text" name="email" value={state.email} placeholder="Email" onChange={handleChange} />

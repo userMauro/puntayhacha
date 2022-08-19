@@ -1,11 +1,17 @@
 .ContactUs {
     display: flex;
     flex-direction: column;
-    width:50%;
+    height: 350px;
+    width: 50%;
     margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.2);
-    padding-bottom: 15px;
+    background-color: #80b918;
+}
+
+.contactus-title {
+    color: white;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: default;
 }
 
 .contactus-form {
@@ -34,9 +40,15 @@
 .contactus-btn {
     /* background-color: black; */
     height: 30px;
-    width: 25%;
+    width: 60px;
 }
 
 .contactus-chars {
     font-size: small;
 }
+
+@media (max-width:550px) {
+    .ContactUs {
+      width: 100%;
+    }
+  }
