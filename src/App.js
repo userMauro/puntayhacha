@@ -20,9 +20,10 @@ function App() {
         <ContactUs />
       </div>
 
-      <Certificates />
+      <a name="certificates" />
+        <Certificates />
 
-        <Footer />
+      <Footer />
     </div>
   );
 }

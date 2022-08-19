@@ -1,5 +1,5 @@
 import "./Styles/Nav.css"
-import profile from "../assets/logo-puntayhacha-blanco.jpg"
+import profile from "../assets/logo-puntayhacha-blanco.png"
 export default function Nav () {
 
     return (
@@ -9,11 +9,14 @@ export default function Nav () {
             </a>
             <div className="navigation-menu">
                     <div className="navbutton">
-                        <a className="link" href="#aboutus">About us</a>
+                        <a className="link" href="#aboutus">Nosotros</a>
                     </div>
                     <div className="navbutton">
-                        <a className="link" href="#maps">Maps</a>
+                        <a className="link" href="#contactus">Contáctanos</a>
                     </div>
+                    {/* <div className="navbutton">
+                        <a className="link" href="#certificates">Certificados</a>
+                    </div> */}
             </div>
         </div>
     );

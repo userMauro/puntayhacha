@@ -44,6 +44,7 @@ export default function ContactUs () {
 
     return (
         <div className="ContactUs">
+            <a name="contactus" />
             <p className="contactus-title">Contáctanos</p>
             <form className="contactus-form" onSubmit={handleOnSubmit}>
                 <input required className='contactus-inputs' type="text" name="name" value={state.name} placeholder="Nombre" onChange={handleChange} />

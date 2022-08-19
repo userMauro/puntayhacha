@@ -7,6 +7,7 @@ import icon_mazul from "../assets/clients/mazul.png";
 export default function AboutUs () {
     return (
         <div className="AboutUs">
+            <a name="aboutus" />
             <p className="aboutus-title">Nosotros</p>
             <div className="aboutus-content">
                 <p className="aboutus-description">Punta y Hacha S.R.L. Es una empresa joven del Alto Valle de Rio Negro, que nace con el objetivo de abastecer al mercado global y local con alimentos de primera categoría de origen orgánico, contando con distintas certificaciones internacionales, pudiendo así evitar los plaguicidas y fertilizante sintéticos, cumpliendo con nuestras premisas más importantes las cuales son SALUD - ECOLOGIA - CUIDADO.</p>
