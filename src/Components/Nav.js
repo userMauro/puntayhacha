@@ -5,7 +5,7 @@ export default function Nav () {
     return (
         <div className="navigation">
             <a href="puntayacha.com.ar" className="brand-name">
-                <img className="picProfile" src={profile} alt="profile" />
+                <img className="logo" src={profile} alt="profile" />
             </a>
             <div className="navigation-menu">
                     <div className="navbutton">
