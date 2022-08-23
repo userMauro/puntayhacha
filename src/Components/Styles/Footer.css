@@ -1,33 +1,44 @@
-.box{
+.Footer {
     width: 100%;
     background-color: rgb(255, 255, 255);
     color: rgba(255, 255, 255, 0.419);
     font-family: "Montserrat", sans-serif;
-    margin-bottom: 30px;
+    margin-top: -15px;
 }
-.desing{
+
+.footer-container {
     display: flex;
-    justify-content: space-around;
-    color: darkgray;
-}
-.pre{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-.Devico{
-    margin-left: 30px;
-    width: 20px;
-    height: 20px;
-}
-.footer{
-    display: flex;
-    width: 100%;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
     color: darkgray;
     background-color: rgb(255, 255, 255);
     font-family: "Montserrat", sans-serif;
-    font-size: 1.0rem;
-    font-weight: 300;
-    padding: 10px 0px 10px 0px;
+    font-size: small;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.footer-design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-imgs {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-around;
+    color: darkgray;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: small;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

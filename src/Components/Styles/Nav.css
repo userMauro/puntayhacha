@@ -10,9 +10,18 @@
     color: #000000;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
 }
+
+.brand-name {
+    overflow: hidden;
+    width:410px;
+    margin-left: 2rem;
+    margin-top: 5px;
+}
+
 .logo{
     width: 100%;
 }
+
 .navbutton{
     border-radius: 6px;
     display:flex;
@@ -33,13 +42,6 @@
     text-decoration: none; 
     font-family: "Montserrat", sans-serif;
     color: black;
-}
-
-.brand-name {
-    overflow: hidden;
-    width:400px;
-    margin-left: 2rem;
-    margin-top: 5px;
 }
 
 .navigation-menu {
@@ -63,10 +65,8 @@
     }
 }
 
-@media (max-width:500px) {
-    .navigation-menu {
-        justify-content: center;
-        width: 100%;
-        margin-left: 0px;
+@media (max-width:300px) {
+    .link {
+        font-size: small;
     }
   }

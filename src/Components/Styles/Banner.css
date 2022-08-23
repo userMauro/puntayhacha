@@ -59,7 +59,7 @@
 
 }
 
-@media (max-width:800px) {
+@media (max-width:860px) {
     .banner-container {
         grid-template-columns: repeat(3, 1fr);
     }

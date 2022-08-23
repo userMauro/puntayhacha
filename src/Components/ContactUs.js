@@ -54,7 +54,7 @@ export default function ContactUs () {
                     <button className='contactus-btn'>Enviar</button>
                     <span className="contactus-chars">{state.char}/600</span>
                 </div>
-                <div >Contacto@puntayhacha.com.ar</div>
+                <div style={{"font-size": "small"}}>Contacto@puntayhacha.com.ar</div>
                 <a style={{visibility: "hidden"}} id="anchor" href={`mailto:Contacto@puntayhacha.com.ar?subject=${state.name}, ${state.subject}&body=${state.message}`}>correo</a>
             </form>
             

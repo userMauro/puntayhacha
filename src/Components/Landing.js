@@ -53,13 +53,13 @@ export default function Landing () {
 
     return (
         <div className="slideshow-container">
-            <div className="fade">
-                <div className="img-container">
-                    <img className="img" src={currentImage[state.slideIndex].img}  alt =""/>
+            <div className="landing-fade">
+
+                <div className="landing-img-container">
+                    <img className="landing-img" src={currentImage[state.slideIndex].img}  alt =""/>
                 </div>
                 
                 <div className="text">
-
                     <button className="plusSlides" onClick={(e)=>plusSlides(-1)}> ◄ </button>
 
                         <div  className="signal">
@@ -75,8 +75,8 @@ export default function Landing () {
                             </div>
 
                         </div>
-                    <button className="plusSlides" onClick={(e)=>plusSlides(1)}> ► </button>
 
+                    <button className="plusSlides" onClick={(e)=>plusSlides(1)}> ► </button>
                 </div>
             </div>
         </div>
