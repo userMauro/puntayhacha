@@ -1,3 +1,11 @@
+// react-redux
+import { useSelector } from 'react-redux';
+
+// lang
+import { ESP } from "../lang/esp";
+import { ENG } from "../lang/eng";
+
+// css
 import "./Styles/Banner.css"
 
 // assets
@@ -16,9 +24,12 @@ import "./Styles/Banner.css"
 
 
 export default function Banner () {
+    const lang = useSelector((state) => state.rootReducer.lang);
+
     return (
         <div className="Banner">
-            <p className="banner-title">Nuestras frutas</p>
+            <p className="banner-title">{lang === "ESP" ? ESP.Banner.title : ENG.Banner.title}</p>
+            
             <div className='line'></div>
             <div className="banner-container">
                 <div className="Fhover"><img title="Red Delicious" className="banner-imgs" src={icon_reddelicious} alt='icon_reddelicious' /><p className="Banner-text">Red Delicious</p></div>

@@ -51,10 +51,27 @@
     margin-left: 5%;
 }
 
+.nav-lang-container {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+
+.nav-lang-icons {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-lang-icons:hover {
+    border: 2px solid gold;
+}
+
 @media (max-width:800px) {
     .navigation-menu {
         justify-content: center;
-        width: 100%;
+        width: 80%;
         margin-left: 0px;
     }
 
@@ -62,6 +79,10 @@
         visibility: hidden;
         width: 1px;
         margin-left: 0px;
+    }
+
+    .link {
+        font-size: medium;
     }
 }
 

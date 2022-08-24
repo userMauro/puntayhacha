@@ -1,3 +1,11 @@
+// react-redux
+import { useSelector } from 'react-redux';
+
+// lang
+import { ESP } from "../lang/esp";
+import { ENG } from "../lang/eng";
+
+// css
 import "./Styles/Certificates.css";
 
 // assets
@@ -10,9 +18,12 @@ import icon_orgarg from "../assets/certificates/orgarg.png";
 import icon_canada from "../assets/certificates/canadaorganic.png";
 
 export default function Certificates () {
+    const lang = useSelector((state) => state.rootReducer.lang);
+
     return (
         <div className="Certificates">
-            <h1 className="certificates-labels">CERTIFICACIONES</h1>
+            <h1 className="certificates-labels">{lang === "ESP" ? ESP.Certificates.title : ENG.Certificates.title}</h1>
+
             <div className="certificates-container">
                 <img title="Global Gap" className="certificates-imgs" src={icon_globalgap} alt='icon_globalgap' />
                 <img title="Eco Cert" className="certificates-imgs" src={icon_ecocert} alt='icon_ecocert' />
