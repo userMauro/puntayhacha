@@ -24,6 +24,9 @@ export default function Landing () {
     let currentImage =[a,b,c]
     // Next-previous controls
     function plusSlides(n) {
+        const landing = document.querySelector(".landing-img");
+        landing.classList.remove("landing-img");
+        setTimeout(() => landing.classList.add("landing-img"), 0.2);
         
         if (state.slideIndex + n === -1 ){
             return setState({

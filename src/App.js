@@ -23,6 +23,7 @@ function App() {
       </div>
 
       <a style={{visibility: "hidden"}} name="certificates" href="www.puntayhacha.com.ar">contactus</a>
+      <section id ="certificates"></section>
         <Certificates />
         
       <a href="https://api.whatsapp.com/send?phone=5491163022062" className="btn-wsp" rel="noreferrer" target="_blank">

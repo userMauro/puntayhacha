@@ -18,6 +18,7 @@ export default function AboutUs () {
     return (
         <div className="AboutUs">
             <a style={{visibility: "hidden"}} name="aboutus" href="www.puntayhacha.com.ar">contactus</a>
+            <section id ="aboutus"></section>
 
             <p className="aboutus-title">{lang === "ESP" ? ESP.About.title : ENG.About.title}</p>
 

@@ -2,7 +2,7 @@
 .slideshow-container {
     display: flex;
     width: 100%;
-    background-color: #ffffff;
+    background-color: black;
 }
 
 .landing-fade {
@@ -23,10 +23,13 @@
 }
 
 .landing-img {
-    height: 100%;
     width: 100%;
-    background-color: #ffffff;
+    background-color: black;
     box-shadow: -5px -5px 20px #000000, 5px 5px 20px #000000;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 .text {
@@ -148,6 +151,12 @@
     100% {
         box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
         transform: translatey(0px);
+    }
+}
+
+@media (max-width:1080px) {
+    .landing-img {
+        height: 100%;
     }
 }
 
