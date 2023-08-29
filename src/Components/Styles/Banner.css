@@ -19,7 +19,6 @@
 }
 
 .banner-container {
-
     display: grid;
     align-items: center;
     grid-template-columns: repeat(9, 1fr);
@@ -32,7 +31,6 @@
 }
 
 .banner-imgs {
-    cursor: pointer;
     border-radius: 50%;
     height: 70px;
     width: 70px;
@@ -48,7 +46,6 @@
 
 .Fhover {
     color: rgb(91, 91, 91);
-    cursor: default;
     font-family: "Montserrat", sans-serif;
 }
 

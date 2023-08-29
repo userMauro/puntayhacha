@@ -20,7 +20,7 @@
 
 .certificates-container {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     justify-items: center;
     align-items: center;
     width: 60%;
@@ -30,19 +30,26 @@
 }
 
 .certificates-imgs {
+    height: 90px;
+    width: 90px;
+}
+
+.certificates-imgs-link:hover {
+    scale: 1.1;
     cursor: pointer;
+}
+
+.certificates-imgs-link {
     height: 90px;
     width: 90px;
 }
 
 .certificates-imgs-ue {
-    cursor: pointer;
     height: 60px;
     width: 90px;
 }
 
 .certificates-imgs-orgarg {
-    cursor: pointer;
     height: 90px;
     width: 70px;
 }
